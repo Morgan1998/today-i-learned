@@ -1,8 +1,8 @@
 <details>
-<summary><b>Promises</b></summary>
+<summary style="color: blue"><b>Promises</b></summary>
 
 <details>
-<summary><b>Mockup of what a Promise class would look like in Javascript</b></summary>
+<summary style="color: red"><b>Mockup of what a Promise class would look like in Javascript</b></summary>
 
 ```js
 class MockPromise {
@@ -136,7 +136,7 @@ I've realized that `await` does the job of .then AND it automatically unwraps an
 ---
 
 <details>
-<summary><b>try/catch blocks</b></summary>
+<summary style="color: blue"><b>try/catch blocks</b></summary>
 
 ### When to use them?
 When your executed functions deal with outside factors that you have no control of. Examples include network requests, disk I/O operations, database 
