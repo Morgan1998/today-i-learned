@@ -139,7 +139,7 @@ I've realized that `await` does the job of .then AND it automatically unwraps an
 <summary>🔵 <b>try/catch blocks</b></summary>
 
 ### 🟣 When to use them?
-When your executed functions deal with outside factors that you have no control of. Examples include network requests, disk I/O operations, database 
+When your executed functions deal with outside factors that you have no control of. Examples include network requests, disk I/O operations, database operations, etc. 
 
 
 </details>
