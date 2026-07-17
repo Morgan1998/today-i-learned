@@ -4,7 +4,7 @@
 
   <details>
     <summary><b>Mockup of what a Promise class would look like in Javascript</b></summary>
-    
+
     ```js
     class MockPromise {
       constructor(executor) {
@@ -109,7 +109,7 @@
         return this.then(null, onRejected);
       }
     }
-  ```
+    ```
 
   </details>
 
