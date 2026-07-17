@@ -26,4 +26,7 @@ My current focus is **The Odin Project** curriculum (JavaScript, React, Node.js,
 *   [Middleware](express/middleware.md)
 *   [Database Integration](express/database-integration.md)
 
+### Version Control
+*   [Git](version-control/git.md)
+
 ---
