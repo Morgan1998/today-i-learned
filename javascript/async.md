@@ -1,8 +1,8 @@
 <details>
-<summary style="color: blue"><b>Promises</b></summary>
+<summary style="color: #58a6ff;"><b>Promises</b></summary>
 
 <details>
-<summary style="color: red"><b>Mockup of what a Promise class would look like in Javascript</b></summary>
+<summary style="color: #ff7b72;"><b>Mockup of what a Promise class would look like in Javascript</b></summary>
 
 ```js
 class MockPromise {
@@ -113,22 +113,22 @@ class MockPromise {
 </details>
 
 
-### Why promises were made?
+<h3 style="color: #cca7ef;">Why promises were made?</h3>
 Callback hell. With promises, we no longer have to deal with passing ugly callback pyramids to our APIs. 
 
-### Difference between `.then` syntax and `async/await`
+<h3 style="color: #cca7ef;">Difference between `.then` syntax and `async/await`</h3>
 Every time a `.then` method is executed, it adds a new callback to the internal `[[PromiseFulfillReactions]]` list. `async/await`, on the other hand, optimizes your code via a generator. The generator doesn't append callbacks to the list; instead, it just passes a pointer to the spot in your async function that it needs to pick up at after the promise is fulfilled. 
 
-### Are most modern promise-based APIs in Node.js just wrappers for old-school callback-based APIs?
+<h3 style="color: #cca7ef;">Are most modern promise-based APIs in Node.js just wrappers for old-school callback-based APIs?</h3>
 Yep.
 
-### In javascript method chaining, a variable is only assigned to the last returned thing in the chain
+<h3 style="color: #cca7ef;">In javascript method chaining, a variable is only assigned to the last returned thing in the chain</h3>
 I was confused with .then chaining. I figured the first promise returned by something like fetch() gets assigned to your variable even if we use .then chaining. I then couldn't understand how the final promise return by the final .then got assigned to the variable. Now I know. (The header of this section is the answer!) So what happens to the other promises higher up in the chain? The are just floating anonymous promises in the heap. 
 
-### How do the .then callback(s) in the internal `[[PromiseFulfillReactions]]` list actually get executed? 
+<h3 style="color: #cca7ef;">How do the .then callback(s) in the internal `[[PromiseFulfillReactions]]` list actually get executed?</h3>
 Libuv pushes (or literally has node.js have v8 to push it) your async API's callback onto the stack, which then executes its inner resolve function. Thanks to lexical scoping via The resolve function then switches the promise's status from 'pending' to 'fulfilled'. Another internal V8 operation then pushes the fulfillreactions (your .then callbacks) onto the native v8 microtask queue. They are put on right away after the current synchronous execution context on the stack finishes. They essentially cut in line ahead of the outer blink/libuv c++ macro task queue. 
 
-### The magic of await
+<h3 style="color: #cca7ef;">The magic of await</h3>
 I've realized that `await` does the job of .then AND it automatically unwraps and exposes the promises result to the variable that you assign to your await api.
 
 </details>
@@ -136,9 +136,9 @@ I've realized that `await` does the job of .then AND it automatically unwraps an
 ---
 
 <details>
-<summary style="color: blue"><b>try/catch blocks</b></summary>
+<summary style="color: #58a6ff;"><b>try/catch blocks</b></summary>
 
-### When to use them?
+<h3 style="color: #cca7ef;">When to use them?</h3>
 When your executed functions deal with outside factors that you have no control of. Examples include network requests, disk I/O operations, database 
 
 
