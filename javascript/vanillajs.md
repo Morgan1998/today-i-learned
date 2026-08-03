@@ -1,5 +1,5 @@
 <details>
-<summary>🔵 <b>try/catch blocks</b></summary>
+<summary>🔵 <b>Setters and Getters</b></summary>
 
 ### 🟣 The core difference between using accessor properties VS data properties for making setters and getters
 This is a question I wrote out that helped me understand the concept:
