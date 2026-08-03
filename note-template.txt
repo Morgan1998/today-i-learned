@@ -1,8 +1,7 @@
 <details>
-  <summary><b></b></summary>
-  <br>
+<summary>🔵 <b></b></summary>
 
-  ### 
+### 🟣
 
  
 
