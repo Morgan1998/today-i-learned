@@ -1,4 +1,4 @@
-# Core Setup Checklist
+# Core React Project Setup Checklist
 
 ## 1. Environment and Tooling
 
