@@ -11,8 +11,8 @@ frontend dir to do the following steps.
 - Run `npm install -D prettier eslint-config-prettier eslint-plugin-prettier`
 - Create a `.prettierrc` file in the root folder to set your rules. For example:
 
-```{"semi": true, "singleQuote": true}
-
+```
+{"semi": true, "singleQuote": true}
 ```
 
 - Link Prettier to ESLInt inside your .eslintrc.cjs config file so formatting errors show up directly as linting warnings.
