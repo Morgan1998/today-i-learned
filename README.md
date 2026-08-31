@@ -37,6 +37,10 @@ My current focus is **The Odin Project** curriculum (JavaScript (learning Typesc
 - [Middleware](express/middleware.md)
 - [Database Integration](express/database-integration.md)
 
+### SQL
+
+- [indexes](sql/indexes.md)
+
 ### Version Control
 
 - [Git](version-control/git.md)
