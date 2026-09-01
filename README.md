@@ -15,7 +15,7 @@ My current focus is **The Odin Project** curriculum (JavaScript (learning Typesc
 - [React](checklists/react-checklist.md)
 - [Express](checklists/express-checklist.md)
 - [SQL](checklists/sql-database-checklist.md)
-- [Testing Quality](checklists/testing-quality.md)
+- [Testing Quality](checklists/testing-quality-checklist.md)
 - [Deployment](checklists/deployment-checklist.md)
 
 ### JavaScript
