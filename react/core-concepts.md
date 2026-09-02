@@ -1,6 +1,6 @@
 # Core Concepts of Good ol' React
 
-## 3 primary triggers that cause re-rerenders (Internal to the Component)
+## The 3 primary triggers that cause re-rerenders (Internal to the Component)
 
 1. `State changes` like a local useState setter function or a useReducer dispatch function
 2. `Context changes`. So, this is like when a value that your component is 'subscribed' to changes. For example,

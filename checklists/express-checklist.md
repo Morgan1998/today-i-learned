@@ -7,7 +7,16 @@
 - [ ] Create a `.env.example` file to document all required backend keys and database secrets.
 - [ ] Install `cors` and configure it explicitly to whitelist only your frontend domain.
 
-## 2. Security and Middlewares
+## 2. Testing Setup
+
+- [ ] **Choose and setup your backend test runner** (this is the environment that runs your automated assertions via your .test.js/.test.ts test files). Here are you two options:
+*   The Native Node Test Runner Route: No dependencies, sick! All you gotta do is add this line to your **package.json** script field: `"test": "node --test --watch"`
+*   The Vitest Test Runner: You need to install it via `npm install -D vitest` and then configure your **package.json** script field as such: `"test: "vitest"`
+- [ ] **Configure your live testing server**: Since Node doest this, you don't need to install anything. Just add this line to your scripts field so you can easily spin it up: `"dev": "node --watch app.js"` 
+
+Now, when you start developing, you just need to run `npm run dev` and `npm run test` 
+
+## 3. Security and Middlewares
 
 - [ ] Install `helmet` middleware to secure HTTP headers and protect against common vulnerabilities.
 - [ ] Implement `express.json()` middleware to parse incoming JSON payloads.
