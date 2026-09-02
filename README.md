@@ -33,9 +33,10 @@ My current focus is **The Odin Project** curriculum (JavaScript (learning Typesc
 
 ### Node & Express
 
-- [Routing & Controllers](express/routing-controllers.md)
-- [Middleware](express/middleware.md)
-- [Database Integration](express/database-integration.md)
+- [services](express/services.md)
+- [models](express/models.md)
+- [use-cases](express/usecases.md)
+- [business-transactions](express/business-transactions.md)
 
 ### SQL
 
