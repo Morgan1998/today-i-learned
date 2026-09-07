@@ -33,6 +33,8 @@ My current focus is **The Odin Project** curriculum (JavaScript (learning Typesc
 
 ### Node & Express
 
+- [all-the-layers](express/all-the-layers.md)
+- [routes](express/routes.md)
 - [services](express/services.md)
 - [models](express/models.md)
 - [use-cases](express/usecases.md)
