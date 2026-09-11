@@ -4,8 +4,6 @@
 
 My current focus is **The Odin Project** curriculum (JavaScript (learning Typescript on the side), React, Node.js/Express, and postgres).
 
-**[View my Daily Learning Log (daily-log.md)](daily-log.md)**
-
 ---
 
 ## Notes
